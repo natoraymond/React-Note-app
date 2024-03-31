@@ -152,3 +152,15 @@ textarea {
   font-size: 1rem;
   line-height: 2rem;
 } 
+
+@media screen and (max-width: 667px){
+  .app-sidebar-header {
+    display: flex;
+    padding: 5px;
+  }
+  .app-sidebar {
+    width: 50%;
+    height: 100vh;
+    border-right: 1px solid #ddd;
+  }
+}
